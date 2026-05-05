@@ -9,4 +9,4 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 COPY . /usr/local/tomcat/webapps/ROOT
 
 # Step 4: Start the Tomcat server
-CMD ["catalina.sh", "run"]s
+CMD ["catalina.sh", "run"]
